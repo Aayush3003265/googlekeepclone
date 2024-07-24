@@ -18,3 +18,62 @@ body{
     width: 400px;
     margin: 0px 100px;
 } */
+ .divvv{
+    display: flex;
+    gap: 50px;
+ }
+
+.hidden{
+    display: none;
+}
+
+.divvv{
+    display: flex;
+    position: relative;
+}
+.note{
+    background-color: gray;
+    height: 300px;
+    width: 400px;
+    margin-left: 64px;
+    margin-right: 64px;
+    /* position: relative; */
+}
+
+.operation{
+ margin-left: 300px;
+ z-index: 1;
+}
+.edit{
+    font-size: 30px;
+    padding: 5px;
+}
+.edit:hover{
+    background-color: rgb(53, 53, 159);
+    border-radius: 20px;
+}
+.delete{
+    font-size: 30px;
+    padding: 5px;
+}
+.delete:hover{
+    background-color: red;
+    border-radius: 20px;
+}
+.main{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    margin-left: 0px;
+}
+textarea{
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    left: 64px;
+    padding: 50px;
+    top: 55px;
+    height: 300px;
+    width: 400px;
+}
+
