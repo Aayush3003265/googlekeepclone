@@ -3,6 +3,7 @@ body{
     padding: 0;
     background: rgb(52,46,154);
     background: linear-gradient(90deg, rgba(52,46,154,1) 0%, rgba(121,43,9,1) 35%, rgba(170,55,73,1) 70%, rgba(255,158,0,1) 100%);
+    position: relative;
 }
 
 .heading{
@@ -38,6 +39,14 @@ body{
     margin-left: 64px;
     margin-right: 64px;
     /* position: relative; */
+}
+
+.bodyDev{
+    display: flex;
+    gap: 10px;
+}
+.divvv{
+    width: 25%;
 }
 
 .operation{
@@ -76,4 +85,21 @@ textarea{
     height: 300px;
     width: 400px;
 }
+.add{
+    margin-left: 850px;
+    padding: 10px;
+}
+.add button{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+}
+.add button:hover{
+   cursor: pointer;
+}
+.add i{
+    color: white;
+    font-size: 30px;
+}
+
 
