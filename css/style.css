@@ -3,7 +3,7 @@ body{
     padding: 0;
     background: rgb(52,46,154);
     background: linear-gradient(90deg, rgba(52,46,154,1) 0%, rgba(121,43,9,1) 35%, rgba(170,55,73,1) 70%, rgba(255,158,0,1) 100%);
-    position: relative;
+    width: 100%;
 }
 
 .heading{
@@ -12,79 +12,85 @@ body{
     color: aliceblue;
     font-size: 24px;
 }
-/* .note{
-    position: relative;
-    background-color: gray;
-    height: 300px;
-    width: 400px;
-    margin: 0px 100px;
-} */
+
  .divvv{
     display: flex;
     gap: 50px;
+    margin-bottom: 70px;
+    width: 25%;
+    height: 350px;
  }
 
 .hidden{
     display: none;
 }
 
-.divvv{
-    display: flex;
-    position: relative;
-}
-.note{
+ .note{
     background-color: gray;
     height: 300px;
     width: 400px;
-    margin-left: 64px;
-    margin-right: 64px;
-    /* position: relative; */
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-.bodyDev{
-    display: flex;
+/* .bodyDiv{
+    flex-wrap: wrap;
     gap: 10px;
-}
-.divvv{
-    width: 25%;
-}
+    justify-content: center;
+} */
+
 
 .operation{
  margin-left: 300px;
- z-index: 1;
+
+}
+
+.main, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #333;
+    resize: none;
 }
 .edit{
     font-size: 30px;
     padding: 5px;
+    background-color: rgb(144, 144, 220);
+    border-radius: 20px;
 }
 .edit:hover{
-    background-color: rgb(53, 53, 159);
-    border-radius: 20px;
+   transition: 0.2s;
+   transform: scale(1.05);
+    cursor: pointer;
 }
 .delete{
     font-size: 30px;
     padding: 5px;
+    background-color: red;
+    border-radius: 20px
 }
 .delete:hover{
-    background-color: red;
-    border-radius: 20px;
+    transition: 0.2s;
+   transform: scale(1.05);
+    cursor: pointer;
 }
 .main{
     background-color: white;
     height: 300px;
     width: 400px;
-    margin-left: 0px;
+    font-size: 24px;
 }
 textarea{
-    background-color: black;
-    color: aliceblue;
-    position: absolute;
-    left: 64px;
-    padding: 50px;
-    top: 55px;
-    height: 300px;
-    width: 400px;
-}
+    background-color: #3f3b3b;
+    color: white;
+    height: 200px;
+    font-size: 24px;
+} 
 .add{
     margin-left: 850px;
     padding: 10px;
@@ -103,3 +109,5 @@ textarea{
 }
 
 
+ 
+ 
