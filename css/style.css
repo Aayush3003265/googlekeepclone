@@ -19,6 +19,7 @@ body{
     margin-bottom: 70px;
     width: 25%;
     height: 350px;
+    border-radius: 5px;
  }
 
 .hidden{
@@ -31,6 +32,7 @@ body{
     width: 400px;
     margin-left: 25px;
     margin-right: 25px;
+    border-radius: 5px;
 }
 
 /* .bodyDiv{
@@ -45,15 +47,14 @@ body{
 
 }
 
-.main, textarea {
+textarea {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    font-size: 16px;
     border-radius: 5px;
     outline: none;
     border: 1px solid #ccc;
-    background-color: white;
+    background-color: rgb(133, 127, 127);
     color: #333;
     resize: none;
 }
@@ -80,10 +81,16 @@ body{
     cursor: pointer;
 }
 .main{
-    background-color: white;
+    background-color: rgb(46, 46, 46);
     height: 300px;
     width: 400px;
     font-size: 24px;
+    color: white;
+    border-radius: 5px;
+    /* overflow: hidden;  */
+    /* word-wrap: break-word;  */
+    overflow-wrap: break-word; 
+    /* word-break: break-all; */
 }
 textarea{
     background-color: #3f3b3b;
@@ -92,13 +99,14 @@ textarea{
     font-size: 24px;
 } 
 .add{
-    margin-left: 850px;
+    margin-left: 800px;
     padding: 10px;
 }
 .add button{
     color: white;
     font-size: 30px;
     background-color: black;
+    width: 250px;
 }
 .add button:hover{
    cursor: pointer;
