@@ -1,6 +1,7 @@
 const addButton = document.querySelector('#add');
 const bodyDiv = document.querySelector('.bodyDiv')
 
+//adding in local storage
 const localDstore = () =>{
     const textValue = document.querySelectorAll('textarea')
     let notes = [];
@@ -13,7 +14,7 @@ const localDstore = () =>{
     localStorage.setItem('note', JSON.stringify(notes));
 }
  
-
+//creating new note
 const newNote = (text = '') => {
         // console.log(text);
     const mainDiv = document.createElement('div');
@@ -76,7 +77,6 @@ const newNote = (text = '') => {
     // getting data back from local storage
 
 const localData = JSON.parse(localStorage.getItem('note'))
-
 if(localData){localData.forEach((note) => newNote(note))};
 
 addButton.addEventListener('click', ()=>{
